@@ -131,3 +131,40 @@ body {
 .discord-link:hover {
     background-color: #663399;
 }
+
+.modern-header {
+    height: 50px;
+    background: #333; /* Dark background color */
+    position: fixed;
+    width: 100%; /* Full width */
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #00bcd4; /* Highlight color on hover */
+}
